@@ -32,6 +32,6 @@
 }
 
 .contact-desc a {
-    color: #FFF;
+    color: #FFF !important;
     text-decoration: none;
 }

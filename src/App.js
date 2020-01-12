@@ -10,7 +10,7 @@ function App() {
       </div>
       <div className="right">
         <div className="intro">
-          영감을 주는 인터페이스와 인터랙션을 창조하고자 합니다.
+          영감을 주는 인터페이스와 인터랙션을 창조하고자 하는 비전과 Virtual-DOM diffing 기반의 렌더링 최적화를 넘어선 FE 고도화 세대를 이루고자 하는 비전을 가지고 있습니다.
           16살 때 포토샵과 HTML으로 개인 홈페이지를 만든 것을 시작으로 웹퍼블리싱과 디자인을 시작하게 되었습니다.
           고등학생이 되어 Vanilla JS를 사용하며 본격적으로 웹 프론트엔드를 시작하였으며, 
           현재는 고도화된 FE 생태계와 JS 런타임 엔진, Devops를 공부하고 있습니다.
@@ -28,7 +28,7 @@ function App() {
           </li>
           <ul className="cv">
             <li>
-              Study Repositody 사이트 개발 및 운영
+              Study Repository 사이트 개발 및 운영
             </li>
             <li>
               Thinking in Javascript 강의 운영
@@ -69,9 +69,9 @@ function App() {
             </li>
             <li>
               <div className="year">
-                2018
+                2019
               </div>
-              교내 창업 아이디어 경진대회 1위
+              아주대학교 창업 아이디어 경진대회 1위
             </li>
             <li>
               <div className="year">
@@ -100,13 +100,25 @@ function App() {
           </li>
           <li className="title">
             <div className="year">
+              2014
+            </div>
+            서울여대 정보보호 영재교육원 제1기 심화과정
+          </li>
+          <li className="title">
+            <div className="year">
               2014 - 2017
             </div>
             선린인터넷고등학교
           </li>
           <ul className="cv">
             <li>
-              Server admin of Unifox.
+              Server admin of Unifox
+            </li>
+            <li>
+              <div className="year">
+                2014
+              </div>
+              교내 네트워크 구축대회 3위
             </li>
             <li>
               <div className="year">
@@ -120,11 +132,129 @@ function App() {
               </div>
               교내 네트워크 구축대회 2위
             </li>
+            
           </ul>
         </ul>
         <h2>
           Experience
         </h2>
+        
+        <h3>Modern Web Development</h3>
+        <div className="ex title">
+          <div className="list"></div>
+            NLP 기반 리뷰 관리 자동화 서비스, UnifoCS
+            <div className="tag">
+              UI/UX, ES6+, React, React-Router, JEST
+            </div>
+        </div>
+        <ul className="ex-ul">
+          <li><div className="list second"></div>데모영상</li>
+          <li><div className="list second"></div>2019 공개SW 개발자 대회 은상</li>
+          <li><div className="list second"></div>2019 SW중심대학 융합SW 공모전 대상</li>
+        </ul>
+        <div className="ex title">
+          <div className="list"></div>
+            헬스장 통합 회원관리 서비스, Fitmin
+            <div className="tag">
+              UI/UX, Vue Native, React Native, ES6+, Vue
+            </div>
+        </div>
+        <div className="ex title">
+          <div className="list"></div>
+            시각화 기반 커리어관리 SNS, Whoami/WeArtist
+            <div className="tag">
+              UI/UX, React, React Native, Redux, ES6+
+            </div>
+        </div>
+        <ul className="ex-ul">
+          <li><div className="list second"></div>Private Repo.</li>
+          <li><div className="list second"></div>2019 아주대학교 창업 아이디어 경진대회 대상</li>
+          <li><div className="list second"></div>2019 SW융합 창업 캠프 아이디어 마켓 2위</li>
+        </ul>
+        <div className="ex title">
+          <div className="list"></div>
+            Whois 스터디 레포지토리 사이트 개발
+            <div className="tag">
+              React, Gatsby, ES6+, TypeScript
+            </div>
+        </div>
+        <div className="ex title">
+          <div className="list"></div>
+            아주대학교 강의평가 서비스, 파란아주 강의평가
+            <div className="tag">
+              UI/UX, Vue, Devops
+            </div>
+        </div>
+        <ul className="ex-ul">
+          <li><div className="list second"></div>Private Repo. 2019년 7월 계약 만료와 함께 서비스 종료</li>
+        </ul>
+        <div className="ex title">
+          <div className="list"></div>
+            아주대학교 커뮤니티, 파란아주
+            <div className="tag">
+              UI/UX, Vue, Devops
+            </div>
+        </div>
+        <ul className="ex-ul">
+          <li><div className="list second"></div>Private Repo. 2019년 7월 계약 만료와 함께 서비스 종료</li>
+        </ul>
+        <h3>Security</h3>
+        <div className="ex title">
+          <div className="list"></div>
+            스마트홈 제어시스템 취약점 다면진단
+            <div className="tag">
+              Mobile, Network, Firmware
+            </div>
+        </div>
+        <ul className="ex-ul">
+          <li><div className="list second"></div>
+          2017 BoB 6th 프로젝트
+          </li>
+          <li><div className="list second"></div>
+          데일리시큐 언론 노출  <a href="http://www.dailysecu.com/?mod=news&act=articleView&idxno=26932"> [긴급] 아파트 스마트홈에 심각한 취약점 발견…</a>
+          </li>
+          <li><div className="list second"></div>
+          JTBC 언론 노출 <a href="http://news.jtbc.joins.com/article/article.aspx?news_id=NB11562517"> 똑똑한 줄 알았는데…맥없이 뚫린 '스마트 홈' 보안</a>
+          </li>
+          <li><div className="list second"></div>
+          2018 코드게이트 해킹시연 공모전 최우수상 및 인기상
+          </li>
+        </ul>
+        <div className="ex title">
+          <div className="list"></div>
+            2018 코드엔진 컨퍼런스 발표
+        </div>
+        <ul className="ex-ul">
+          <li><div className="list second"></div>
+          스마트홈 제어시스템 취약점 다면진단
+          </li>
+        </ul>
+        <h3>System Programming</h3>
+        <div className="ex title">
+          <div className="list"></div>
+          <a href="https://bitbucket.org/purelledhand/mybuddy">purelledhand/mybuddy</a>
+          <div className="tag">
+            C, automated test code
+          </div>
+        </div>
+        <ul className="ex-ul">
+          <li><div className="list second"></div>
+          C implementation of kernel buddy memory allocator.
+          </li>
+        </ul>
+        <div className="ex title">
+          <div className="list"></div>
+          <a href="https://bitbucket.org/purelledhand/mylock">purelledhand/mylock</a>
+          <div className="tag">
+            C, automated test code
+          </div>
+        </div>
+        <ul className="ex-ul">
+          <li><div className="list second"></div>
+          C implementation of spinlock, mutex, semaphore.
+          </li>
+        </ul>
+        <h3>Infra Engineering</h3>
         <h2>
           Open Source
         </h2>
