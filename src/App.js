@@ -148,7 +148,7 @@ function App() {
             </div>
         </div>
         <ul className="ex-ul">
-          <li><div className="list second"></div>데모영상</li>
+          <li><div className="list second"></div><a href="https://youtu.be/LNmBgMDj7V0">데모영상</a></li>
           <li><div className="list second"></div>2019 공개SW 개발자 대회 은상</li>
           <li><div className="list second"></div>2019 SW중심대학 융합SW 공모전 대상</li>
         </ul>
@@ -170,6 +170,19 @@ function App() {
           <li><div className="list second"></div>Private Repo.</li>
           <li><div className="list second"></div>2019 아주대학교 창업 아이디어 경진대회 대상</li>
           <li><div className="list second"></div>2019 SW융합 창업 캠프 아이디어 마켓 2위</li>
+        </ul>
+        <div className="ex title">
+          <div className="list"></div>
+            zziz/pwc : CVPR2019 컨퍼런스 사이트 개발
+            <div className="tag">
+              UI/UX, ES6+
+            </div>
+        </div>
+        <ul className="ex-ul">
+          <li><div className="list second"></div>
+          <a href="https://github.com/zziz/pwc">zziz/pwc</a> : 14k github star</li>
+          <li><div className="list second"></div><a href="http://paperake.com">paperake.com</a></li>
+          <li><div className="list second"></div>gitlab repository maintainer</li>
         </ul>
         <div className="ex title">
           <div className="list"></div>
@@ -226,7 +239,7 @@ function App() {
         </div>
         <ul className="ex-ul">
           <li><div className="list second"></div>
-          스마트홈 제어시스템 취약점 다면진단
+          <a href="https://github.com/codeengn/codeengn-conference/blob/master/15/2018%20CodeEngn%20Conference%2015%2C%20%EC%8A%A4%EB%A7%88%ED%8A%B8%20%ED%99%88%20%EC%A0%9C%EC%96%B4%EC%8B%9C%EC%8A%A4%ED%85%9C%20%EB%8B%A4%EB%A9%B4%EC%A7%84%EB%8B%A8%20%5B%EC%B5%9C%EC%86%8C%ED%98%9C%5D.pdf">스마트홈 제어시스템 취약점 다면진단</a>
           </li>
         </ul>
         <h3>System Programming</h3>
@@ -255,8 +268,62 @@ function App() {
           </li>
         </ul>
         <h3>Infra Engineering</h3>
+        <div className="ex title">
+          <div className="list"></div>
+            수원공업고등학교 IT인프라 기능경기대회 강사
+          <div className="tag">
+            server infra, routing, switching, FW, UTM
+          </div>
+        </div>
+        <ul className="ex-ul">
+          <li><div className="list second"></div>
+          2017.12 ~ 2018.04
+          </li>
+        </ul>
+        <div className="ex title">
+          <div className="list"></div>
+            Configuring SW Raid with mdadm
+          <div className="tag">
+            server infra
+          </div>
+        </div>
+        <ul className="ex-ul">
+          <li><div className="list second"></div>
+            <a href="https://blog.naver.com/wergreat10/220373421917">publishing link</a>
+          </li>
+        </ul>
+        <div className="ex title">
+          <div className="list"></div>
+            KISA 케이쉴드 주니어 이상적인 학사망 운용 프로젝트
+          <div className="tag">
+            server infra, cisco2960, ASA5500
+          </div>
+        </div>
+        <ul className="ex-ul">
+          <li><div className="list second"></div>
+          Project Manager
+          </li>
+          <li><div className="list second"></div>
+           실장비 이중화, 서비스 이중화, 망분리
+          </li>
+          <li><div className="list second"></div>
+           모의해킹 후 보완
+          </li>
+        </ul>
+        <div className="ex title">
+          <div className="list"></div>
+            실장비 활용 WAN 구축 프로젝트
+          <div className="tag">
+            server infra, cisco2960, ASA5500, VoIP
+          </div>
+        </div>
+        <ul className="ex-ul">
+          <li><div className="list second"></div>
+          Project Manager
+          </li>
+        </ul>
         <h2>
-          Open Source
+          Contact
         </h2>
       </div>
     </div>
