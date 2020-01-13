@@ -162,6 +162,17 @@ function App() {
         </div>
         <div className="ex title">
           <div className="list"></div>
+            React Hook Form 라이브러리 공식 페이지 번역
+            <div className="tag">
+              Contributed PR : #46
+            </div>
+        </div>
+        <ul className="ex-ul">
+          <li><div className="list second"></div>
+          <a href="https://github.com/react-hook-form/react-hook-form-website">react-hook-form/react-hook-form-website</a></li>
+        </ul>
+        <div className="ex title">
+          <div className="list"></div>
             시각화 기반 커리어관리 SNS, Whoami/WeArtist
             <div className="tag">
               UI/UX, React, React Native, Redux, ES6+
@@ -184,6 +195,20 @@ function App() {
           <a href="https://github.com/zziz/pwc">zziz/pwc</a> : 14k github star</li>
           <li><div className="list second"></div><a href="http://paperake.com">paperake.com</a></li>
           <li><div className="list second"></div>gitlab repository maintainer</li>
+        </ul>
+        <div className="ex title">
+          <div className="list"></div>
+            React.js 공식 문서 번역
+            <div className="tag">
+              Contributed PR : #35
+            </div>
+        </div>
+        <ul className="ex-ul">
+          <li><div className="list second"></div>
+          <a href="https://github.com/reactjs/ko.reactjs.org">reactjs/ko.reactjs.org</a></li>
+          <li><div className="list second"></div>
+          <a href="https://ko.reactjs.org/docs/components-and-props.html">components and props</a>
+          </li>
         </ul>
         <div className="ex title">
           <div className="list"></div>
@@ -269,6 +294,21 @@ function App() {
           </li>
         </ul>
         <h3>Infra Engineering</h3>
+        <div className="ex title">
+          <div className="list"></div>
+            Kubernetes 공식 문서 번역
+          <div className="tag">
+            Contributed PR : #16299
+          </div>
+        </div>
+        <ul className="ex-ul">
+          <li><div className="list second"></div>
+            <a href="https://github.com/kubernetes/website/">kubernetes/website</a> : 1.8k github star
+          </li>
+          <li><div className="list second"></div>
+            DNS Pod Service
+          </li>
+        </ul>
         <div className="ex title">
           <div className="list"></div>
             수원공업고등학교 IT인프라 기능경기대회 강사
