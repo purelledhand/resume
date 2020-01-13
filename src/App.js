@@ -4,6 +4,7 @@ import './App.css';
 
 function App() {
   return (
+    <div>
     <div className="App">
       <div className="left">
         <ContactCard></ContactCard>
@@ -326,7 +327,7 @@ function App() {
           Contact
         </h2>
         <div className="desc">
-        Any contact is welcomed. Be my friends!
+        Any contact is welcomed. Be my friends 🙌
         </div>
         <div className="contacts">
           <a href="https://github.com/purelledhand"><div className="contact-point git">
@@ -340,6 +341,10 @@ function App() {
           </div></a>
         </div>
       </div>
+    </div>
+    <footer>
+     <a href="https://github.com/purelledhand/resume/blob/master/LICENSE">AGPLv3 License</a>
+    </footer>
     </div>
   );
 }

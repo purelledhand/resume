@@ -52,6 +52,15 @@ h3 {
   margin: 15px 0 5px 0;
 }
 
+footer {
+  width: 1000px;
+  padding: 20px 20px 80px 20px;
+  font-size: 14px;
+  border-top: 1px solid #ddd;
+  margin: 0 auto;
+
+}
+
 .head{
   margin-top: 10px !important;
 }
