@@ -325,6 +325,20 @@ function App() {
         <h2>
           Contact
         </h2>
+        <div className="desc">
+        Any contact is welcomed. Be my friends!
+        </div>
+        <div className="contacts">
+          <a href="https://github.com/purelledhand"><div className="contact-point git">
+            Github
+          </div></a>
+          <a href="https://www.facebook.com/purelledhand"><div className="contact-point fb">
+            Facebook
+          </div></a>
+          <a href="https://open.kakao.com/o/sUOCsNPb"><div className="contact-point kakao">
+            Kakaotalk (fast-response)
+          </div></a>
+        </div>
       </div>
     </div>
   );
