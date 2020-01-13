@@ -142,8 +142,11 @@ function App() {
         
         <h3>Modern Web Development</h3>
         <div className="ex title">
-          <div className="list"></div>
+          <div className="row">
+            <div className="list"></div>
             NLP 기반 리뷰 관리 자동화 서비스, UnifoCS
+          </div>
+          
             <div className="tag">
               UI/UX, ES6+, React, React-Router, JEST
             </div>
@@ -154,15 +157,21 @@ function App() {
           <li><div className="list second"></div>2019 SW중심대학 융합SW 공모전 대상</li>
         </ul>
         <div className="ex title">
-          <div className="list"></div>
+          <div className="row">
+            <div className="list"></div>
             헬스장 통합 회원관리 서비스, Fitmin
+          </div>
+          
             <div className="tag">
               UI/UX, Vue Native, React Native, ES6+, Vue
             </div>
         </div>
         <div className="ex title">
-          <div className="list"></div>
+          <div className="row">
+            <div className="list"></div>
             React Hook Form 라이브러리 공식 페이지 번역
+          </div>
+          
             <div className="tag">
               Contributed PR : #46
             </div>
@@ -172,8 +181,11 @@ function App() {
           <a href="https://github.com/react-hook-form/react-hook-form-website">react-hook-form/react-hook-form-website</a></li>
         </ul>
         <div className="ex title">
-          <div className="list"></div>
+          <div className="row">
+            <div className="list"></div>
             시각화 기반 커리어관리 SNS, Whoami/WeArtist
+          </div>
+          
             <div className="tag">
               UI/UX, React, React Native, Redux, ES6+
             </div>
@@ -184,8 +196,11 @@ function App() {
           <li><div className="list second"></div>2019 SW융합 창업 캠프 아이디어 마켓 2위</li>
         </ul>
         <div className="ex title">
-          <div className="list"></div>
+          <div className="row">
+            <div className="list"></div>
             zziz/pwc : CVPR2019 컨퍼런스 사이트 개발
+          </div>
+          
             <div className="tag">
               UI/UX, ES6+
             </div>
@@ -197,8 +212,11 @@ function App() {
           <li><div className="list second"></div>gitlab repository maintainer</li>
         </ul>
         <div className="ex title">
-          <div className="list"></div>
+          <div className="row">
+            <div className="list"></div>
             React.js 공식 문서 번역
+          </div>
+          
             <div className="tag">
               Contributed PR : #35
             </div>
@@ -211,15 +229,21 @@ function App() {
           </li>
         </ul>
         <div className="ex title">
-          <div className="list"></div>
+          <div className="row">
+            <div className="list"></div>
             Whois 스터디 레포지토리 사이트 개발
+          </div>
+          
             <div className="tag">
               React, Gatsby, ES6+, TypeScript
             </div>
         </div>
         <div className="ex title">
-          <div className="list"></div>
+          <div className="row">
+            <div className="list"></div>
             아주대학교 강의평가 서비스, 파란아주 강의평가
+          </div>
+          
             <div className="tag">
               UI/UX, Vue, Devops
             </div>
@@ -228,8 +252,11 @@ function App() {
           <li><div className="list second"></div>Private Repo. 2019년 7월 계약 만료와 함께 서비스 종료</li>
         </ul>
         <div className="ex title">
-          <div className="list"></div>
+          <div className="row">
+            <div className="list"></div>
             아주대학교 커뮤니티, 파란아주
+          </div>
+          
             <div className="tag">
               UI/UX, Vue, Devops
             </div>
@@ -239,8 +266,11 @@ function App() {
         </ul>
         <h3>Security</h3>
         <div className="ex title">
-          <div className="list"></div>
+          <div className="row">
+            <div className="list"></div>
             스마트홈 제어시스템 취약점 다면진단
+          </div>
+          
             <div className="tag">
               Mobile, Network, Firmware
             </div>
@@ -260,8 +290,11 @@ function App() {
           </li>
         </ul>
         <div className="ex title">
-          <div className="list"></div>
+          <div className="row">
+            <div className="list"></div>
             2018 코드엔진 컨퍼런스 발표
+          </div>
+          
         </div>
         <ul className="ex-ul">
           <li><div className="list second"></div>
@@ -270,8 +303,11 @@ function App() {
         </ul>
         <h3>System Programming</h3>
         <div className="ex title">
-          <div className="list"></div>
+          <div className="row">
+            <div className="list"></div>
           <a href="https://bitbucket.org/purelledhand/mybuddy">purelledhand/mybuddy</a>
+          </div>
+          
           <div className="tag">
             C, automated test code
           </div>
@@ -282,8 +318,11 @@ function App() {
           </li>
         </ul>
         <div className="ex title">
-          <div className="list"></div>
+          <div className="row">
+            <div className="list"></div>
           <a href="https://bitbucket.org/purelledhand/mylock">purelledhand/mylock</a>
+          </div>
+          
           <div className="tag">
             C, automated test code
           </div>
@@ -295,8 +334,11 @@ function App() {
         </ul>
         <h3>Infra Engineering</h3>
         <div className="ex title">
-          <div className="list"></div>
+          <div className="row">
+            <div className="list"></div>
             Kubernetes 공식 문서 번역
+          </div>
+          
           <div className="tag">
             Contributed PR : #16299
           </div>
@@ -310,8 +352,10 @@ function App() {
           </li>
         </ul>
         <div className="ex title">
-          <div className="list"></div>
+          <div className="row">
+            <div className="list"></div>
             수원공업고등학교 IT인프라 기능경기대회 강사
+          </div>
           <div className="tag">
             server infra, routing, switching, FW, UTM
           </div>
@@ -322,8 +366,11 @@ function App() {
           </li>
         </ul>
         <div className="ex title">
-          <div className="list"></div>
+          <div className="row">
+            <div className="list"></div>
             Configuring SW Raid with mdadm
+          </div>
+          
           <div className="tag">
             server infra
           </div>
@@ -334,8 +381,11 @@ function App() {
           </li>
         </ul>
         <div className="ex title">
-          <div className="list"></div>
+          <div className="row">
+            <div className="list"></div>
             KISA 케이쉴드 주니어 이상적인 학사망 운용 프로젝트
+          </div>
+          
           <div className="tag">
             server infra, cisco2960, ASA5500
           </div>
@@ -352,8 +402,11 @@ function App() {
           </li>
         </ul>
         <div className="ex title">
-          <div className="list"></div>
+          <div className="row">
+            <div className="list"></div>
             실장비 활용 WAN 구축 프로젝트
+          </div>
+          
           <div className="tag">
             server infra, cisco2960, ASA5500, VoIP
           </div>
@@ -377,7 +430,7 @@ function App() {
             Facebook
           </div></a>
           <a href="https://open.kakao.com/o/sUOCsNPb"><div className="contact-point kakao">
-            Kakaotalk (fast-response)
+            Kakaotalk
           </div></a>
         </div>
       </div>
