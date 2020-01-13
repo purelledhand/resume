@@ -54,7 +54,19 @@ h3 {
 }
 
 header {
-  display: none;
+    font-weight: 100;
+    box-sizing: border-box;
+    font-size: 42px;
+    padding: 40px 0 0 0;
+    margin: 0 auto;
+    width: 1000px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+header>div {
+  margin-right: 15px;
 }
 
 footer {
@@ -64,6 +76,11 @@ footer {
   border-top: 1px solid #eaecef;
   margin: 0 auto;
   
+}
+
+.header-bold {
+  font-weight: 400;
+  color: #333;
 }
 
 .head{
@@ -170,11 +187,8 @@ footer {
     flex-direction: column;
   }
 
-  b {
-    font-weight: 300;
-  }
-
   header {
+    flex-direction: column;
     display: block;
     font-weight: 100;
     box-sizing: border-box;
@@ -182,6 +196,10 @@ footer {
     padding: 100px 60px;
     width: 100%;
     height: 100vh;
+  }
+
+  .header-bold {
+    font-weight: 300;
   }
 
   .list {

@@ -6,10 +6,18 @@ function App() {
   return (
     <div>
     <header>
-      <b>Optimize</b><br></br>
-      the world,<br></br>
-      <b>Visualize</b><br></br>
-      the think.<br></br>
+      <div className="header-bold">
+      Optimize
+      </div>
+      <div>
+      the world,
+      </div>
+      <div className="header-bold">
+      Visualize
+      </div>
+      <div>
+      the think.
+      </div>
     </header>
     <div className="App">
       <div className="left">
