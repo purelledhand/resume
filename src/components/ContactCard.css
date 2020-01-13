@@ -43,6 +43,6 @@
 @media (max-width: 720px) { 
 
     .contact {
-      margin: 50vh auto 80px auto;
+      margin: -50vh auto 80px auto;
     }
   }

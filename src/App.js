@@ -5,6 +5,12 @@ import './App.css';
 function App() {
   return (
     <div>
+    <header>
+      <b>Optimize</b><br></br>
+      the world,<br></br>
+      <b>Visualize</b><br></br>
+      the think.<br></br>
+    </header>
     <div className="App">
       <div className="left">
         <ContactCard></ContactCard>
