@@ -54,6 +54,7 @@ h3 {
 }
 
 header {
+    display: none;
     font-weight: 100;
     box-sizing: border-box;
     font-size: 42px;
