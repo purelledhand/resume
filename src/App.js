@@ -252,6 +252,9 @@ function App() {
               React, Gatsby, ES6+, TypeScript
             </div>
         </div>
+        <ul className="ex-ul">
+          <li><div className="list second"></div><a href="https://study.ajou-whois.org">study.ajou-whois.org</a></li>
+        </ul>
         <div className="ex title">
           <div className="row">
             <div className="list"></div>
@@ -313,37 +316,6 @@ function App() {
         <ul className="ex-ul">
           <li><div className="list second"></div>
           <a href="https://github.com/codeengn/codeengn-conference/blob/master/15/2018%20CodeEngn%20Conference%2015%2C%20%EC%8A%A4%EB%A7%88%ED%8A%B8%20%ED%99%88%20%EC%A0%9C%EC%96%B4%EC%8B%9C%EC%8A%A4%ED%85%9C%20%EB%8B%A4%EB%A9%B4%EC%A7%84%EB%8B%A8%20%5B%EC%B5%9C%EC%86%8C%ED%98%9C%5D.pdf">스마트홈 제어시스템 취약점 다면진단</a>
-          </li>
-        </ul>
-        <h3>System Programming</h3>
-        <div className="ex title">
-          <div className="row">
-            <div className="list"></div>
-          <a href="https://bitbucket.org/purelledhand/mybuddy">purelledhand/mybuddy</a>
-          </div>
-          
-          <div className="tag">
-            C, automated test code
-          </div>
-        </div>
-        <ul className="ex-ul">
-          <li><div className="list second"></div>
-          C implementation of kernel buddy memory allocator.
-          </li>
-        </ul>
-        <div className="ex title">
-          <div className="row">
-            <div className="list"></div>
-          <a href="https://bitbucket.org/purelledhand/mylock">purelledhand/mylock</a>
-          </div>
-          
-          <div className="tag">
-            C, automated test code
-          </div>
-        </div>
-        <ul className="ex-ul">
-          <li><div className="list second"></div>
-          C implementation of spinlock, mutex, semaphore.
           </li>
         </ul>
         <h3>Infra Engineering</h3>
@@ -434,7 +406,7 @@ function App() {
           Contact
         </h2>
         <div className="desc">
-        Any contact is welcomed. Be my friends 🙌
+        Any contact is welcomed.
         </div>
         <div className="contacts">
           <a href="https://github.com/purelledhand"><div className="contact-point git">
