@@ -37,6 +37,17 @@ function App() {
         <ul className="head cv">
           <li className="title">
             <div className="year">
+              2020 - now
+            </div>
+            <a href="https://squarelab.co">Square Lab</a>
+          </li>
+          <ul className="cv">
+            <li>
+              Client Engineer Intern
+            </li>
+          </ul>
+          <li className="title">
+            <div className="year">
               2017 - 2019
             </div>
             Whois. 아주대학교 정보보호 소학회
