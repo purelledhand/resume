@@ -17,6 +17,9 @@ export function ContactCard() {
                     Git | <a href="https://github.com/purelledhand">https://github.com/purelledhand</a>
                 </div>
                 <div className="contact-desc">
+                    Blog | <a href="https://sohye.space">https://sohye.space</a>
+                </div>
+                <div className="contact-desc">
                     Email | purelledhand@gmail.com
                 </div>
             </div>

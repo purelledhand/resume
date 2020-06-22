@@ -25,10 +25,10 @@ function App() {
       </div>
       <div className="right">
         <div className="intro">
-          영감을 주는 인터페이스와 인터랙션을 창조하고자 하는 비전과 Virtual-DOM diffing 기반의 렌더링 최적화를 넘어선 FE 고도화 세대를 이루고자 하는 비전을 가지고 있습니다.
-          16살 때 포토샵과 HTML으로 개인 홈페이지를 만든 것을 시작으로 웹퍼블리싱과 디자인을 시작하게 되었습니다.
-          고등학생이 되어 Vanilla JS를 사용하며 본격적으로 웹 프론트엔드를 시작하였으며, 
-          현재는 고도화된 FE 생태계와 JS 런타임 엔진, Devops를 공부하고 있습니다.
+          사용자와 접점이 있는 서비스를 만드는 것을 좋아해서, FE 포지션을 자주 맡아왔습니다.
+          Virtual-DOM diffing 기반의 렌더링 최적화를 넘어선 FE 고도화 세대를 이루고자 하는 비전을 가지고 있습니다.
+          현재 고도화된 FE 생태계의 v-dom 기반 렌더링 이후 세대는 새로운 브라우저 렌더링 기술이 이끌 것이라고 생각하며, 향후 이 부분에 대한 연구를 진행하고자 합니다.
+          최근에는 경량 리액트 라이브러리 preact의 v-dom 기반 렌더링 최적화 구현과정을 따라가며 공부하고 있습니다.
         </div>
         
         <h2>
@@ -169,11 +169,28 @@ function App() {
         <div className="ex title">
           <div className="row">
             <div className="list"></div>
+            플레이윙즈 백오피스 대시보드 서비스
+          </div>
+          
+            <div className="tag">
+              Material-UI, React-Hooks, TypeScript, grpc, protobufjs
+            </div>
+        </div>
+        <ul className="ex-ul">
+          <li><div className="list second"></div>2020.03 - 2020.06 스퀘어랩 사내 프로젝트</li>
+          <li><div className="list second"></div>Implementing Codebase and UI</li>
+          <li><div className="list second"></div>Multi-API handling strategy design</li>
+          <li><div className="list second"></div>Client api model design based on rpc</li>
+          <li><div className="list second"></div>Static typing with TypeScript</li>
+        </ul>
+        <div className="ex title">
+          <div className="row">
+            <div className="list"></div>
             NLP 기반 리뷰 관리 자동화 서비스, UnifoCS
           </div>
           
             <div className="tag">
-              UI/UX, ES6+, React, React-Router, JEST
+              UI/UX, ES6+, React, JEST
             </div>
         </div>
         <ul className="ex-ul">
