@@ -28,7 +28,6 @@ function App() {
           사용자와 접점이 있는 서비스를 만드는 클라이언트 엔지니어링을 선호합니다.
           Virtual-DOM diffing 기반의 렌더링 최적화를 넘어선 FE 고도화 세대를 이루고자 하는 비전을 가지고 있습니다.
           현재 고도화된 FE 생태계의 v-dom 기반 렌더링 이후 세대는 새로운 브라우저 렌더링 기술이 이끌 것이라고 생각하며, 향후 이 부분에 대한 연구를 진행하고자 합니다.
-          최근에는 경량 리액트 라이브러리 preact의 v-dom 기반 렌더링 최적화 구현과정을 따라가며 공부하고 있습니다.
         </div>
         
         <h2>
@@ -38,6 +37,17 @@ function App() {
           <li className="title">
             <div className="year">
               2020 - now
+            </div>
+            <a href="https://hyperconnect.com">hyperconnect</a>
+          </li>
+          <ul className="cv">
+            <li>
+              Azar Studio, Web Platform team
+            </li>
+          </ul>
+          <li className="title">
+            <div className="year">
+              2020 - 2020
             </div>
             <a href="https://squarelab.co">Square Lab</a>
           </li>
