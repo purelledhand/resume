@@ -9,13 +9,13 @@
   ;
   
     height: 440px;
-    width: 300px;
-    background-image: url(../images/card-gradient.png);
+    width: 290px;
+    background: linear-gradient(rgba(255, 255, 255, .2), rgba(255, 255, 255, 0)), url(../images/card-gradient.png);
     background-size: cover;
     border-radius: 20px;
     color: #FFF;
     box-sizing: border-box;
-    padding: 35px;
+    padding: 32px 28px;
     font-weight: 300;
     display: flex;
     flex-direction: column;
