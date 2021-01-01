@@ -26,8 +26,7 @@ function App() {
       <div className="right">
         <div className="intro">
           사용자와 접점이 있는 서비스를 만드는 클라이언트 엔지니어링을 선호합니다.
-          Virtual-DOM diffing 기반의 렌더링 최적화를 넘어선 FE 고도화 세대를 이루고자 하는 비전을 가지고 있습니다.
-          현재 고도화된 FE 생태계의 v-dom 기반 렌더링 이후 세대는 새로운 브라우저 렌더링 기술이 이끌 것이라고 생각하며, 향후 이 부분에 대한 연구를 진행하고자 합니다.
+          Virtual-DOM diffing 기반의 렌더링 최적화를 넘어선 FE 고도화 세대를 연구하고 싶습니다.
         </div>
         
         <h2>
@@ -42,7 +41,13 @@ function App() {
           </li>
           <ul className="cv">
             <li>
-              Azar Studio, Web Platform team
+              Azar Studio, Web Frontend Engineer
+            </li>
+            <li>
+              <div className="year">
+                2020
+              </div>
+              <a href="https://hyperconnect.github.io/2020/12/14/typescript-build-optimization.html">CRA + TypeScript 환경 빌드 퍼포먼스 최적화</a>
             </li>
           </ul>
           <li className="title">
@@ -54,6 +59,9 @@ function App() {
           <ul className="cv">
             <li>
               Client Engineer Intern
+            </li>
+            <li>
+              
             </li>
           </ul>
           <li className="title">
