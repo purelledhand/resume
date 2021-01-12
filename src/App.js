@@ -1,8 +1,19 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import ContactCard from './components/ContactCard';
+import { getLocale, getTranslation, initializeI18next } from './utils/i18next';
 import './App.css';
 
 function App() {
+
+  useEffect(() => {
+    const locale = getLocale();
+    const initI18next = async () => {
+      const t = await getTranslation(locale);
+      initializeI18next(locale, t);
+    };
+    initI18next();
+  }, []);
+
   return (
     <>
       <header>
