@@ -1,16 +1,9 @@
 import i18next from 'i18next';
 import { initReactI18next } from 'react-i18next';
 
-export interface Translation {
-  [key: string]: string;
-}
+export const SupportLanguage = ['en', 'ko']
 
-export enum SupportLanguage {
-  EN = 'en',
-  KR = 'kr',
-}
-
-const DEFAULT_LANGUAGE = SupportLanguage.EN;
+const DEFAULT_LANGUAGE = 'en';
 
 i18next
   .use(initReactI18next)
@@ -25,7 +18,7 @@ i18next
     },
   });
 
-export const getTranslation = async (locale: string) => {
+export const getTranslation = async (locale) => {
   let translation;
 
   try {
@@ -37,14 +30,14 @@ export const getTranslation = async (locale: string) => {
   return translation;
 };
 
-export const initializeI18next = async (locale: string, translation: Translation) => {
+export const initializeI18next = async (locale, translation) => {
   i18next.addResourceBundle(locale, 'translation', translation);
   i18next.changeLanguage(locale);
   return i18next;
 };
 
 export const getLocale = () => {
-  const userLanguage = navigator.language.substring(0, 2) as SupportLanguage;
+  const userLanguage = navigator.language.substring(0, 2);
 
   return Object.values(SupportLanguage).includes(userLanguage) ? userLanguage : DEFAULT_LANGUAGE;
 };

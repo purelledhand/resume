@@ -1,18 +1,20 @@
 import React, { useEffect } from 'react';
 import ContactCard from './components/ContactCard';
 import { getLocale, getTranslation, initializeI18next } from './utils/i18next';
+import { useTranslation } from 'react-i18next';
 import './App.css';
 
 function App() {
-
   useEffect(() => {
     const locale = getLocale();
     const initI18next = async () => {
-      const t = await getTranslation(locale);
-      initializeI18next(locale, t);
+      const translation = await getTranslation(locale);
+      initializeI18next(locale, translation);
     };
     initI18next();
   }, []);
+
+  const { t } = useTranslation();
 
   return (
     <>
@@ -28,9 +30,7 @@ function App() {
         </div>
         <div className="right">
           <div className="intro">
-            사용자와 접점이 있는 서비스를 만드는 클라이언트 엔지니어링을
-            선호합니다. Virtual-DOM diffing 기반의 렌더링 최적화를 넘어선 FE
-            고도화 세대를 연구하고 싶습니다.
+            { t('bio') }
           </div>
           <h2>Curriculum Vitae</h2>
           <ul className="head cv">
