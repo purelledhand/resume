@@ -1,9 +1,19 @@
 import React from 'react';
+import { motion } from 'framer-motion';
 import './ContactCard.css';
 
 export function ContactCard() {
     return (
-        <div className="contact">
+        <motion.div
+            drag
+            dragConstraints={{
+            top: 0,
+            left: 0,
+            right: 0,
+            bottom: 0,
+            }}
+            className="contact"
+        >
             <div>
                 <div className="contact-title">
                     최소혜, Choi Sohye
@@ -20,7 +30,7 @@ export function ContactCard() {
                     Email | purelledhand@gmail.com
                 </div>
             </div>
-        </div>
+        </motion.div>
     );
 }
 
