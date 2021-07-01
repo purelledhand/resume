@@ -80,6 +80,14 @@ code {
      -o-transform: rotateX(0deg) translateY(0px);
      transform: rotateX(0deg) translateY(0px);
      }
+
+   20% {
+    -webkit-transform: rotateX(0deg) translateY(1px) translateX(5px);
+    -moz-transform: rotateX(0deg) translateY(10px) translateX(5px);
+    -ms-transform: rotateX(0deg) translateY(30px) translateX(5px);
+    -o-transform: rotateX(0deg) translateY(40px) translateX(5px);
+    transform: rotateX(0deg) translateY(8px) translateX(5px);
+    }
  
    50% {
      -webkit-transform: rotateX(0deg) translateY(1px) translateX(5px);
@@ -87,7 +95,7 @@ code {
      -ms-transform: rotateX(0deg) translateY(30px) translateX(5px);
      -o-transform: rotateX(0deg) translateY(40px) translateX(5px);
      transform: rotateX(0deg) translateY(10px) translateX(5px);
- }
+    }
    100% {
      -webkit-transform: rotateX(0deg) translateY(0px) translateX(1px);
      -moz-transform: rotateX(0deg) translateY(0px) translateX(1px);
@@ -112,12 +120,24 @@ h1{
 .card {
   width: 420px;
   border-radius: 20px;
-  background: rgba(120, 120, 120, 0.1);
-  backdrop-filter: blur(35px);
   border: 2px solid rgba(255, 255, 255, 0.1);
   box-shadow: 0 0 80px rgba(0, 0, 0, 0.25);
   padding: 30px 30px 30px 30px;
   overflow: hidden;
+}
+
+/* slightly transparent fallback */
+.backdrop-blur {
+  background-color: rgba(255, 255, 255, .1);
+}
+
+/* if backdrop support: very transparent and blurred */
+@supports ((-webkit-backdrop-filter: blur(35px)) or (backdrop-filter: blur(35px))) {
+  .backdrop-blur {
+    background: rgba(120, 120, 120, 0.1);
+    -webkit-backdrop-filter: blur(35px);
+    backdrop-filter: blur(35px);
+  }
 }
 
 .card.profile {
@@ -138,6 +158,8 @@ h1{
 
 .profile-position {
   font-size: 14px;
+  font-weight: 600;
+  opacity: 0.8;
 }
 
 
