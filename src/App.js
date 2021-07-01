@@ -1,5 +1,4 @@
 import React, { useEffect } from 'react';
-import ContactCard from './components/ContactCard';
 import { getLocale, getTranslation, initializeI18next } from './utils/i18next';
 import { useTranslation } from 'react-i18next';
 import './App.css';
@@ -18,17 +17,25 @@ function App() {
 
   return (
     <>
+    <div class="circles">
+      <div class="circle circle-1"></div>
+      <div class="circle circle-2"></div>
+    </div>
       <header>
         <div className="header-bold">Optimize</div>
         <div>the world,</div>
         <div className="header-bold">Visualize</div>
         <div>the think.</div>
       </header>
+      <div class="contents">
       <div className="App">
-        <div className="left">
-          <ContactCard></ContactCard>
+        <div className="profile card">
+          <div class="profile-name">Sohye Choi, 최소혜</div>
+          <div class="profile-position">
+            Web Frontend Engineer
+          </div>
         </div>
-        <div className="right">
+        <div className="card">
           <div className="intro">
             { t('bio') }
           </div>
@@ -36,10 +43,17 @@ function App() {
           <ul className="head cv">
             <li className="title">
               <div className="year">2020 - now</div>
-              <a href="https://hyperconnect.com">hyperconnect</a>
+              <span>HYPERCONNECT</span>
             </li>
             <ul className="cv">
-              <li>Azar Studio, Web Frontend Engineer</li>
+              <li>
+                <div className="year">2021</div>
+                Enterprise Team, Web Frontend Engineer
+              </li>
+              <li>
+                <div className="year">2020</div>
+                Azar Studio, Web Frontend Engineer
+              </li>
               <li>
                 <div className="year">2020</div>
                 <a href="https://hyperconnect.github.io/2020/12/14/typescript-build-optimization.html">
@@ -48,36 +62,35 @@ function App() {
               </li>
             </ul>
             <li className="title">
+              <div className="year">2021 - 2021</div>
+              <span>SAP Labs Korea</span>
+            </li>
+            <ul className="cv">
+              <li>
+                Infra Service Team, UX Engineer (Contract)
+
+              </li>
+            </ul>
+            <li className="title">
               <div className="year">2020 - 2020</div>
-              <a href="https://squarelab.co">Square Lab</a>
+              <span>Square Lab</span>
             </li>
             <ul className="cv">
               <li>Client Engineer Intern</li>
-              <li></li>
-            </ul>
-            <li className="title">
-              <div className="year">2017 - 2019</div>
-              Whois. 아주대학교 정보보호 소학회
-            </li>
-            <ul className="cv">
-              <li>Study Repository 사이트 개발 및 운영</li>
-              <li>Thinking in Javascript 강의 운영</li>
             </ul>
             <li className="title">
               <div className="year">2017 - 2018</div>
-              Best of the Best 6th, Kitri
+              <span>Best of the Best 6th, Kitri</span>
             </li>
             <ul className="cv">
               <li>Top 30</li>
             </ul>
             <li className="title">
-              <div className="year">2017 - now</div>
-              Ajou University, Suwon, Korea.
+              <div className="year">2017 - 2021</div>
+              <span>Ajou University</span>
             </li>
             <ul className="cv">
-              <li>B.S. Student</li>
-              <li>Major in Cyber Security</li>
-              <li>FE Engineer of Paranajou.</li>
+              <li>B.S. degree of cyber security</li>
               <li>
                 <div className="year">2018</div>
                 코드게이트 해킹시연 공모전 1위
@@ -96,20 +109,8 @@ function App() {
               </li>
             </ul>
             <li className="title">
-              <div className="year">2015</div>
-              숙련기술연수원 IT infra administrator 멘토링
-            </li>
-            <li className="title">
-              <div className="year">2015</div>
-              KISA K-Shield Junior
-            </li>
-            <li className="title">
-              <div className="year">2014</div>
-              서울여대 정보보호 영재교육원 제1기 심화과정
-            </li>
-            <li className="title">
               <div className="year">2014 - 2017</div>
-              선린인터넷고등학교
+              <span>선린인터넷고등학교</span>
             </li>
             <ul className="cv">
               <li>Server admin of Unifox</li>
@@ -132,12 +133,10 @@ function App() {
           <h3>Modern Web Development</h3>
           <div className="ex title">
             <div className="row">
-              <div className="list"></div>
               플레이윙즈 백오피스 대시보드 서비스
-            </div>
-
-            <div className="tag">
-              Material-UI, React-Hooks, TypeScript, grpc, protobufjs
+              <div className="tag">
+                Material-UI, React-Hooks, TypeScript, grpc, protobufjs
+              </div>
             </div>
           </div>
           <ul className="ex-ul">
@@ -162,11 +161,9 @@ function App() {
           </ul>
           <div className="ex title">
             <div className="row">
-              <div className="list"></div>
               NLP 기반 리뷰 관리 자동화 서비스, UnifoCS
+              <div className="tag">UI/UX, ES6+, React, JEST</div>
             </div>
-
-            <div className="tag">UI/UX, ES6+, React, JEST</div>
           </div>
           <ul className="ex-ul">
             <li>
@@ -183,21 +180,9 @@ function App() {
           </ul>
           <div className="ex title">
             <div className="row">
-              <div className="list"></div>
-              헬스장 통합 회원관리 서비스, Fitmin
-            </div>
-
-            <div className="tag">
-              UI/UX, Vue Native, React Native, ES6+, Vue
-            </div>
-          </div>
-          <div className="ex title">
-            <div className="row">
-              <div className="list"></div>
               React Hook Form 라이브러리 공식 페이지 번역
+              <div className="tag">Contributed PR : #46</div>
             </div>
-
-            <div className="tag">Contributed PR : #46</div>
           </div>
           <ul className="ex-ul">
             <li>
@@ -209,16 +194,11 @@ function App() {
           </ul>
           <div className="ex title">
             <div className="row">
-              <div className="list"></div>
               시각화 기반 커리어관리 SNS, Whoami/WeArtist
+              <div className="tag">UI/UX, React, React Native, Redux, ES6+</div>
             </div>
-
-            <div className="tag">UI/UX, React, React Native, Redux, ES6+</div>
           </div>
           <ul className="ex-ul">
-            <li>
-              <div className="list second"></div>Private Repo.
-            </li>
             <li>
               <div className="list second"></div>2019 아주대학교 창업 아이디어
               경진대회 대상
@@ -230,11 +210,9 @@ function App() {
           </ul>
           <div className="ex title">
             <div className="row">
-              <div className="list"></div>
               zziz/pwc : CVPR2019 컨퍼런스 사이트 개발
+              <div className="tag">UI/UX, ES6+</div>
             </div>
-
-            <div className="tag">UI/UX, ES6+</div>
           </div>
           <ul className="ex-ul">
             <li>
@@ -252,11 +230,9 @@ function App() {
           </ul>
           <div className="ex title">
             <div className="row">
-              <div className="list"></div>
               React.js 공식 문서 번역
+              <div className="tag">Contributed PR : #35</div>
             </div>
-
-            <div className="tag">Contributed PR : #35</div>
           </div>
           <ul className="ex-ul">
             <li>
@@ -272,56 +248,13 @@ function App() {
               </a>
             </li>
           </ul>
-          <div className="ex title">
-            <div className="row">
-              <div className="list"></div>
-              Whois 스터디 레포지토리 사이트 개발
-            </div>
 
-            <div className="tag">React, Gatsby, ES6+, TypeScript</div>
-          </div>
-          <ul className="ex-ul">
-            <li>
-              <div className="list second"></div>
-              <a href="https://study.ajou-whois.org">study.ajou-whois.org</a>
-            </li>
-          </ul>
-          <div className="ex title">
-            <div className="row">
-              <div className="list"></div>
-              아주대학교 강의평가 서비스, 파란아주 강의평가
-            </div>
-
-            <div className="tag">UI/UX, Vue, Devops</div>
-          </div>
-          <ul className="ex-ul">
-            <li>
-              <div className="list second"></div>Private Repo. 2019년 7월 계약
-              만료와 함께 서비스 종료
-            </li>
-          </ul>
-          <div className="ex title">
-            <div className="row">
-              <div className="list"></div>
-              아주대학교 커뮤니티, 파란아주
-            </div>
-
-            <div className="tag">UI/UX, Vue, Devops</div>
-          </div>
-          <ul className="ex-ul">
-            <li>
-              <div className="list second"></div>Private Repo. 2019년 7월 계약
-              만료와 함께 서비스 종료
-            </li>
-          </ul>
           <h3>Security</h3>
           <div className="ex title">
             <div className="row">
-              <div className="list"></div>
               스마트홈 제어시스템 취약점 다면진단
+              <div className="tag">Mobile, Network, Firmware</div>
             </div>
-
-            <div className="tag">Mobile, Network, Firmware</div>
           </div>
           <ul className="ex-ul">
             <li>
@@ -351,7 +284,6 @@ function App() {
           </ul>
           <div className="ex title">
             <div className="row">
-              <div className="list"></div>
               2018 코드엔진 컨퍼런스 발표
             </div>
           </div>
@@ -366,11 +298,9 @@ function App() {
           <h3>Infra Engineering</h3>
           <div className="ex title">
             <div className="row">
-              <div className="list"></div>
               Kubernetes 공식 문서 번역
+              <div className="tag">Contributed PR : #16299</div>
             </div>
-
-            <div className="tag">Contributed PR : #16299</div>
           </div>
           <ul className="ex-ul">
             <li>
@@ -387,10 +317,9 @@ function App() {
           </ul>
           <div className="ex title">
             <div className="row">
-              <div className="list"></div>
               수원공업고등학교 IT인프라 기능경기대회 강사
+              <div className="tag">server infra, routing, switching, FW, UTM</div>
             </div>
-            <div className="tag">server infra, routing, switching, FW, UTM</div>
           </div>
           <ul className="ex-ul">
             <li>
@@ -400,11 +329,9 @@ function App() {
           </ul>
           <div className="ex title">
             <div className="row">
-              <div className="list"></div>
               Configuring SW Raid with mdadm
+              <div className="tag">server infra</div>
             </div>
-
-            <div className="tag">server infra</div>
           </div>
           <ul className="ex-ul">
             <li>
@@ -416,11 +343,9 @@ function App() {
           </ul>
           <div className="ex title">
             <div className="row">
-              <div className="list"></div>
               KISA 케이쉴드 주니어 이상적인 학사망 운용 프로젝트
+              <div className="tag">server infra, cisco2960, ASA5500</div>
             </div>
-
-            <div className="tag">server infra, cisco2960, ASA5500</div>
           </div>
           <ul className="ex-ul">
             <li>
@@ -438,11 +363,9 @@ function App() {
           </ul>
           <div className="ex title">
             <div className="row">
-              <div className="list"></div>
               실장비 활용 WAN 구축 프로젝트
+              <div className="tag">server infra, cisco2960, ASA5500, VoIP</div>
             </div>
-
-            <div className="tag">server infra, cisco2960, ASA5500, VoIP</div>
           </div>
           <ul className="ex-ul">
             <li>
@@ -451,25 +374,23 @@ function App() {
             </li>
           </ul>
           <h2>Contact</h2>
-          <div className="desc">Any contact is welcomed.</div>
+          <div className="desc">purelledhand@gmail.com</div>
           <div className="contacts">
-            <a href="https://github.com/purelledhand">
+            <a href="https://github.com/purelledhand" target="_blank" rel="noopener noreferrer">
               <div className="contact-point git">Github</div>
             </a>
-            <a href="https://www.facebook.com/purelledhand">
-              <div className="contact-point fb">Facebook</div>
+            <a href="https://www.linkedin.com/in/sohye" target="_blank" rel="noopener noreferrer">
+              <div className="contact-point fb">Linkedin</div>
             </a>
-            <a href="https://open.kakao.com/o/sUOCsNPb">
-              <div className="contact-point kakao">Kakaotalk</div>
-            </a>
-          </div>
         </div>
+      </div>
       </div>
       <footer>
         <a href="https://github.com/purelledhand/resume/blob/master/LICENSE">
           AGPLv3 License
         </a>
       </footer>
+      </div>
     </>
   );
 }

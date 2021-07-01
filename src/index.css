@@ -1,9 +1,11 @@
 body {
   margin: 0;
-  color: #2a2a2a;
+  color: #ffffff;
   font-family: 'Spoqa Han Sans', 'Helvetica Neue', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(240, 244, 247);
+  background: linear-gradient(-70deg,  #202020, #000000);
 }
 
 code {
