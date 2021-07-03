@@ -13,7 +13,6 @@ code {
     monospace;
 }
 
-
 /* Background circles start */
 .circle {
   position: fixed;
@@ -178,6 +177,7 @@ h1{
 .intro {
   color: #a7a7a7;
   margin-bottom: 20px;
+  font-size: 14px;
 }
 
 /*********************/
