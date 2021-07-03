@@ -143,9 +143,15 @@ h1{
   aspect-ratio: 1.7;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
   align-items: flex-start;
   margin: calc(23vh - 260px) auto 180px auto;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.card.profile>div {
+  opacity: 0.8;
 }
 
 .profile-name {
