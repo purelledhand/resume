@@ -140,7 +140,7 @@ h1{
 }
 
 .card.profile {
-  aspect-ratio: 1.8;
+  height: 220px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -368,6 +368,10 @@ footer {
   .App {
     width: 100%;
     flex-direction: column;
+  }
+
+  .card.profile {
+    height: 170px;
   }
 
   .card {
